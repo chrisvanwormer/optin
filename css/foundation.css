@@ -57,8 +57,20 @@ html,
 body {
   font-size: 100%; }
 
+.bookyellow {
+  color:#fbdb6e;
+}
+
+.booklightblue {
+  color:#6eb7cd;
+}
+
+.bookdarkblue {
+  color:#107d9c;
+}
+
 body {
-  background: #fff;
+  background: #6eb7cd;
   color: #222;
   cursor: auto;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
