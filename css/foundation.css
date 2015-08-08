@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Hind:600,400);
+
 meta.foundation-version {
   font-family: "/5.5.2/"; }
 
@@ -70,7 +72,7 @@ body {
 }
 
 body {
-  background: #6eb7cd;
+  background: #ffeeb6;
   color: #222;
   cursor: auto;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -1179,9 +1181,10 @@ button, .button {
   background-color: #008CBA;
   border-color: #007095;
   color: #FFFFFF;
+  text-transform: uppercase;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: #6eb7cd; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: #FFFFFF; }
   button.secondary, .button.secondary {
@@ -6340,4 +6343,61 @@ th.hide-for-touch {
   height:50px;
   background-color:#107da2;
   width:100% !important;
+  border-bottom: solid 1px #ffffff;
+}
+
+.bottom-spacing {
+  height:50px;
+  background-color:#107da2;
+  width:100% !important;
+  border-top: solid 1px #ffffff;
+}
+
+.bottom-spacing p {
+  font-size:0.75em;
+  color:#ffffff;
+  text-align:center;
+}
+
+.book-image {
+  margin-top:20px;
+  border:solid 5px #fff;
+  -moz-box-shadow:    0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow:         0 0 10px #000000;
+  max-width:400px;
+  width:100%;
+}
+
+.bottom-image {
+  margin-bottom:20px;
+}
+
+.heading {
+  font-family: 'Hind';
+  font-weight: 600;
+  margin-bottom:15px;
+}
+
+.paragraphtext {
+  font-family: 'Hind';
+  font-weight:400;
+  font-size:1.25em;
+  margin-bottom:20px;
+}
+
+.buttonwrapper {
+  text-align: center;
+}
+
+.emailsubmissionpopupleft {
+  width:40%;
+}
+
+.emailsubmissionpopupright {
+  width:60%;
+}
+
+.copyright {
+  font-size:0.675em;
 }
