@@ -6334,3 +6334,10 @@ th.hide-for-touch {
 @media not print {
   .show-for-print {
     display: none !important; } }
+
+/* CUSTOM CSS */
+.top-spacing {
+  height:50px;
+  background-color:#107da2;
+  width:100% !important;
+}
