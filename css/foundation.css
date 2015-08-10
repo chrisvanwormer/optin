@@ -6401,3 +6401,22 @@ th.hide-for-touch {
 .copyright {
   font-size:0.675em;
 }
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #000 !important;
+  font-style: italic;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #000 !important;
+  opacity:  1;
+  font-style: italic;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #000 !important;
+  opacity:  1;
+  font-style: italic;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:    #000 !important;
+  font-style: italic;
+}
