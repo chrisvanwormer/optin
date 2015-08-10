@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>I am fearlessly me</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="shortcut icon" href="http://www.iamfearlesslyme.com/wp-content/uploads/2015/05/favicon.ico" type="image/x-icon" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -20,11 +21,15 @@
         <form>
           <input type="text" name="name" id="name" placeholder="Name" />
           <input type="text" name="email" id="email" placeholder="Email Address" />
-          <a href="#" class="button expanded">SUBMIT AND DOWNLOAD YOUR FREE PDF</a>
+          <a href="#" id="sendOptIn" class="button expanded">SUBMIT AND DOWNLOAD YOUR FREE PDF</a>
         </form>
       </div>
     </div>
     <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
+
+  <div id="content-thank-you" class="reveal-modal medium" data-reveal>
+
   </div>
 
     <div class="row">
@@ -47,6 +52,7 @@
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
     <script>
       $(document).foundation();
     </script>
