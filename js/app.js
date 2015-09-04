@@ -5,7 +5,7 @@ $(document).ready(function() {
         var formEmail    = $('#email').val();
         var formdata    = 'name=' + formName + '&email=' + formEmail;
         $('#content-thank-you').foundation('reveal', 'open', {
-            url: 'http://iamfearlesslyme.com/optin/php/app.php?script=optin',
+            url: 'php/app.php?script=optin',
             type: 'POST',
             data: formdata,
             success: function(data) {

@@ -35,11 +35,11 @@ if (isset($_GET['script'])) {
         $body = "<p>Name: " . $name . "</p>\n";
         $body .= "<p>Email: " . $email . "</p>\n";
 
-        mail('christina@iamfearlesslyme.com', $subject, $body, $headers);
+        mail('cvanwormer@gmail.com', $subject, $body, $headers);
 
         $html = '
-                 <p>Thank you very much. Please click the link below to download your free pdf.</p>
-                 <p><a href="http://iamfearlesslyme.com/optin/download/Love_Attracts_Love_Bigger.jpg">Download your pdf</a></p>
+                 <p>Thank you very much. You will be contacted to schedule your complimentary twenty minute session.<br />Please click the link below to download your free pdf.</p>
+                 <p><a href="http://iamfearlesslyme.com/gift/download/Love_Attracts_Love.pdf">Download your pdf</a></p>
                  <a class="close-reveal-modal">&#215;</a>';
         echo $html;
     }
